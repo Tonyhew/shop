@@ -1,0 +1,39 @@
+.oneleft{ float: left; width: 196px; margin-right: 10px; border: 2px solid #1D7AD9; height: 361px; border-top: 0;}
+.subdl{ position: relative;}
+.subdl dl{ border-bottom: 1px dashed #ddd; padding: 11px;}
+.subdl:last-child dl{ border-bottom: 0;}
+.subdl dl dt a{ color: #1D7AD9; font-size: 16px; font-family: "微软雅黑"; display: block; background: url(../img/ico4.png) no-repeat right center; margin-bottom: 10px;}
+.subdl dl dd a{ display: inline-block; margin-right: 10px; line-height: 22px;}
+.subdl:hover{ background-color: #1D7AD9;}
+.subdl:hover dl dt a{ color: #fff; background-image: url(../img/ico5.png);}
+.subdl:hover dl dd a{ color: #fff;}
+.subnav{ position: absolute; left: 196px; top: 0; border: 2px solid #1D7AD9; padding: 30px; background-color: #fff; display: none; z-index: 999;}
+.subdl:hover .subnav{ display: block;}
+.banner{ float: left; width: 755px; height: 353px; overflow: hidden; margin-top: 10px; position: relative;}
+.banspan{ position: absolute; right: 20px; bottom: 20px;}
+.banspan span{ display: inline-block; width: 16px; height: 16px; background-color: #000; color: #fff; margin-left: 10px; border-radius: 100%; text-align: center; line-height: 16px; cursor: pointer;}
+.banspan span:hover,.banspan span:first-child{ background-color: #FF7700;}
+/*one end*/
+.two{ margin-top: 20px; border: 1px solid #DEDEDE; border-top: 2px solid #F5619C; margin-bottom: 200px;}
+.twoleft{ float: left; width: 250px; height: 485px; position: relative;}
+.addimg{ width:250px; height: 485px; overflow: hidden;}
+.addspan{ position: absolute; left: 70px; bottom: 50px;}
+.addspan span{ display: inline-block; width: 30px; height: 4px; background-color: #000; margin: 0 5px; cursor: pointer;}
+.addspan span:first-child,.addspan span:hover{ background-color: #FF7700;}
+
+.twomid{ float: left; width: 712px; height: 485px; border-right: 1px solid #DEDEDE; padding-left: 15px;}
+.twomid dl{ float: left; width: 160px; margin: 17px 18px 0 0;}
+.twomid dl dt{ margin-bottom: 10px;}
+.twomid dl img{ width: 160px; height: 160px;}
+.twomid dl dd{ line-height: 20px;}
+.twomid dl dd:last-of-type{ font-weight: bold; color: #FF7700;}
+
+.tworight{ float: right;width: 210px;}
+.title{ font-family: "微软雅黑"; font-size: 16px; line-height: 40px; font-weight: normal; padding-left: 20px;}
+.hotpro ul img{ width: 130px; height: 130px;}
+.hotpro ul{ text-align: center; border-bottom: 1px dashed #dedede; padding-bottom: 10px;}
+.hotpro dl{ border-bottom: 1px dashed #dedede; overflow: auto; zoom:1; padding: 10px;}
+.hotpro dl dt{ float: left; width: 48px; margin-right: 10px;}
+.hotpro dl img{ width: 48px; height: 48px;}
+.hotpro dl dd{ line-height: 24px;}
+.hotpro dl dd span{ display: inline-block; width: 17px; height: 15px; background: url(../img/whole.png) no-repeat -218px 0; margin-right: 10px;}
