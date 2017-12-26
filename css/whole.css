@@ -80,6 +80,7 @@ ul li{list-style:none;vertical-align:text-top;}
 .navcon li{ float:left; padding:0 45px; height:45px; line-height:45px;}
 .navcon li a{ color:#fff; font-family:"微软雅黑"; font-size:16px; float:left;}
 .navcon li.current{ background-color:#F15500;}
+.navcon li:first-child{background-color: #1D7AD9;}
 .navcon li:hover{background-color:#F15500;}
 .navcon li .navhot{ float:left; margin:5px 0 0 5px; background:url(../images/ico/whole.png) no-repeat -154px 0; display:inline-block; width:25px; height:14px;}
 .navlist{ float:left; width:200px; margin-right:10px;border-bottom:2px solid #1D7AD9; background-color:#fff;}
