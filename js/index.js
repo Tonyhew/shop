@@ -38,7 +38,7 @@ $(document).ready(function(){
 		});
 		
 	/*新品首发*/
-	$(".newspan span").eq(0).addClass("current");	
+	/*$(".newspan span").eq(0).addClass("current");	
 	$(".newimg a").eq(0).show().siblings("a").hide();
 	$(".newspan span").mouseover(function(){
 		numb=$(this).index();
@@ -52,10 +52,10 @@ $(document).ready(function(){
 			$(".newspan span").eq(0).trigger("mouseover");
 			}
 			$(".newspan span").eq(a+1).trigger("mouseover");
-		},5000);
+		},5000);*/
 	
 	/*兑换专区*/
-	$(".change").mouseover(function(){
+	/*$(".change").mouseover(function(){
 		$(".changezuo").show();
 		$(".changeyou").show();
 		}).mouseout(function(){
@@ -91,10 +91,10 @@ $(document).ready(function(){
 	});
 	setInterval(function(){
 		$(".changeyou").trigger("click");
-	},5000);
+	},5000);*/
 	
 	/*销量最多*/
-	$(".mostspan span").eq(0).addClass("current");
+	/*$(".mostspan span").eq(0).addClass("current");
 	$(".mostproduct").eq(0).show().siblings(".mostproduct").hide();
 	$(".mostspan span").click(function(){
 		$(this).addClass("current").siblings("span").removeClass("current");
@@ -107,7 +107,7 @@ $(document).ready(function(){
 			}).mouseout(function(){
 				$(this).parents("li").siblings("li").find("dl .empty").hide();
 				});
-		});	
+		});	*/
 	
 	/*福利模块 大图切换*/
 	$(".welfarezuo").each(function(){
@@ -126,7 +126,7 @@ $(document).ready(function(){
 		});
 	
 	/*热销排行*/
-	$(".welfareyou").each(function(){
+	/*$(".welfareyou").each(function(){
 		$(this).find(".hotcon:not(:first)").each(function(){
 			$(this).find("ul").hide();
 			});
@@ -137,5 +137,5 @@ $(document).ready(function(){
 				$(this).find("dl").hide().parents(".hotcon").siblings(".hotcon").find("dl").show();
 				});
 			});
-		});
+		});*/
 });
