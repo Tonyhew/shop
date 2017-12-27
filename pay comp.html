@@ -6,6 +6,10 @@
 		<link rel="stylesheet" type="text/css" href="css/index.css"/>
 		<link rel="stylesheet" type="text/css" href="css/whole.css"/>
 		<link rel="stylesheet" type="text/css" href="css/pay.css"/>
+		<link rel="stylesheet" type="text/css" href="css/paydiv.css"/>
+		<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+		<script type="text/javascript" src="js/index.js" ></script>
+		<script type="text/javascript" src="js/whole.js" ></script>
 	</head>
 	<body>
 		
@@ -80,24 +84,26 @@
 					
 				</div>
 				<div class="paysuccess-content-orderinfo">
-					<ul style="width: 245px;height: 119px;">
-						<li><div style="width: 72px;height: 28px; line-height: 28px; background-color: #1D7AD9;color: #FFFFFF; display: inline-block; text-align: center;">订单编号：</div><span>25553445568255534455</span></li>
-						<li><div style="width: 72px;height: 28px; line-height: 28px; background-color: #1D7AD9;color: #FFFFFF; display: inline-block; text-align: center;">订单金额：</div><span class="coinall">￥269</span></li>
-						<li><div style="width: 72px;height: 28px; line-height: 28px; background-color: #1D7AD9;color: #FFFFFF; display: inline-block; text-align: center;">付款方式：</div><div style="display: inline-block;border: 1px solid #666;margin: -4px 0 5px 5px; "><img src="images/ico/pay-icon_03.jpg"/></div></li>
+					<ul>
+		                <li><strong>订单编号:</strong><span>25553445568255534455</span></li>
+		                <li><strong>订单金额:</strong><span><font color="#ff7700">￥269.00</font></span></li>
+		                <li><strong>付款方式:</strong><span><img src="images/ico/pay-icon_03.jpg" style="border: solid 1px #999;" /></span></li>
 					</ul>
 				</div>
+				<br />
 				<div class="paysuccess-content-customerinfo">
-					<form action="" method="post" class="">
+					<form  style="width: 480px;height: 135px;margin: 20px ;">
 						<label>手机号：</label>
-						<input type="text" name="number" id="" value="" />
-						<input type="submit" value="发送手机验证"/><br /><br />
+						<input type="text" name="number" id="" value="" size="40" style="padding: 3px;"/>
+						<input type="submit" value="发送手机验证" style="width: 107px;height: 24px;"/><br /><br />
 						<label>验证码：</label>
-						<input type="text" name="number" id="" value="" />&nbsp;&nbsp;<span>为保障您的赞礼币账户安全，请验证后操作</span><br /><br />
-						<input class="pay-btn" type="submit" value="立即付款"/>
+						<input type="text" name="number" id="" value="" style="padding: 3px;"/>&nbsp;&nbsp;<span>为保障您的赞礼币账户安全，请验证后操作</span><br /><br />
+						<input class="pay-btn" type="submit" value="立即付款" style="margin-left: 54px;"/>
 					</form>
-					<div class="paysuccess-content-tpis">
-						<p>注意事项：</p>
-						<p>“购买成功”仅表明赞礼收到您的订单，只有您的订单通过审核后，才代表订单正式生效；<br />请您检查外包装，如有明显损坏迹象，您可以拒收该货品，并及时通知我们；<br />建议您在购买的15天内保留商品的全套包装、附件、发票等所有随货物品，以便后续的保修处理。</p>
+					<br />
+					<div class="paysuccess-content-tpis" style="margin-top: -45px; margin-right: 20px;margin-left: 20px;">
+						
+						<p>注意事项：<br />“购买成功”仅表明赞礼收到您的订单，只有您的订单通过审核后，才代表订单正式生效；<br />请您检查外包装，如有明显损坏迹象，您可以拒收该货品，并及时通知我们；<br />建议您在购买的15天内保留商品的全套包装、附件、发票等所有随货物品，以便后续的保修处理。</p>
 						
 					</div>
 				</div>

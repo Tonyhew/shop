@@ -23,7 +23,7 @@
 .paysuccess-content{margin: 0 auto;width: 1190px;padding-top: 40px;}
 .paysuccess_content-main{padding-top: 40px;}
 .paysuccess-content-orderinfo{clear: both;}
-.paysuccess-content-orderinfo ul {padding-left: 105px;padding-top: 20px;}
+.paysuccess-content-orderinfo ul {padding-left: 420px;padding-top: 20px;width: 245px;height: 119px;}
 .paysuccess-content-orderinfo ul li {height: 35px;}
 .paysuccess-content-orderinfo ul li strong {background-color: #1d7ad9;color: #ffffff;width: 70px;height: 30px;float: left;text-indent: 9px;line-height: 30px;font-family: "宋体";font-size: 12px;font-weight: normal;}
 .paysuccess-content-orderinfo ul li span {line-height: 32px;font-weight: bold;padding-left: 10px;}
@@ -31,7 +31,7 @@
 .paysuccess-content-customerinfo{width: 1000px;border: solid 1px #dedede;height: 280px;margin: 0 auto;}
 .pay-btn{background-color: #ff7700;border: 0;height: 30px;width: 90px;color: #ffffff;text-align: center;line-height: 30px;display: block;}
 .pay-btn:hover{color: #ffffff;}
-.paysuccess-content-tpis{background: #f2f2f2; margin-left: 105px; margin-top: 20px;height: 140px;}
+.paysuccess-content-tpis{background: #f2f2f2; margin-left: 105px; margin-top: 20px;height: 130px;}
 .paysuccess-content-tpis p{padding-left: 20px;padding-top: 15px;width: 520px;line-height: 25px;color: #666666;}
 /*订单页面*/
 .pay-checkout-main{text-align: left;padding-top: 40px;}

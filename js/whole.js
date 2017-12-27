@@ -1,7 +1,7 @@
 // JavaScript Document
 $(document).ready(function(){
 	/*返回顶部*/
-	(function($){
+	/*(function($){
 		var goToTopTime;
 		$.fn.goToTop=function(options){
 			var opts = $.extend({},$.fn.goToTop.def,options);
@@ -57,7 +57,7 @@ $(document).ready(function(){
 			}).mouseout(function(){
 				$(this).find("a span").hide().siblings("strong").show();
 				});
-		});
+		});*/
 	
 	/*关注我们*/
 	$(".topleft").mouseover(function(){
