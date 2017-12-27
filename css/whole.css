@@ -23,7 +23,7 @@ ul li{list-style:none;vertical-align:text-top;}
 /* ---------- 返回顶部 start ---------- */
 
 /* ---------- 头部 start ---------- */
-.top{ background-color:#f2f2f2;}
+.top{ background-color:#f2f2f2; width: 100%;}
 .topcon{ width:1190px; margin:0 auto; padding:12px 0; height:16px; line-height:16px;}
 .topleft{ float:left;}
 .active{ float:left; height:16px; line-height:16px; margin-right:8px; color:#666;}
@@ -44,7 +44,7 @@ ul li{list-style:none;vertical-align:text-top;}
 /* ---------- 头部 end ---------- */
 
 /* ---------- 头部广告 start ---------- */
-.topadd a{ display:block; background:url(../images/add/topadd.jpg) no-repeat center top; height:70px;}
+.add a img{ display:block; background:url(../images/add/topadd.jpg) no-repeat center top; height:70px; width:100%;}
 /* ---------- 头部广告 end ----------- */
 
 /* ---------- 搜索 start ---------- */
