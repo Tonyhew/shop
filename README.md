@@ -7,7 +7,7 @@
  https://tonyhew.github.io/shop/check.html
   
 #支付页面
- https://tonyhew.github.io/shop/pay%20comp.html
+ https://tonyhew.github.io/shop/paying.html
  
 #支付完成
  
