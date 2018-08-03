@@ -21,9 +21,9 @@
 .modulehot dl dd{ line-height:20px;}
 /*支付页面*/
 .paysuccess-content{margin: 0 auto;width: 1190px;padding-top: 40px;}
-.paysuccess_content-main{padding-top: 40px;}
+.paysuccess_content-main{padding-top: 40px;margin-right: 95px;}
 .paysuccess-content-orderinfo{clear: both;}
-.paysuccess-content-orderinfo ul {padding-left: 420px;padding-top: 20px;width: 245px;height: 119px;}
+.paysuccess-content-orderinfo ul {padding-left: 350px;padding-top: 20px;width: 245px;height: 119px;}
 .paysuccess-content-orderinfo ul li {height: 35px;}
 .paysuccess-content-orderinfo ul li strong {background-color: #1d7ad9;color: #ffffff;width: 70px;height: 30px;float: left;text-indent: 9px;line-height: 30px;font-family: "宋体";font-size: 12px;font-weight: normal;}
 .paysuccess-content-orderinfo ul li span {line-height: 32px;font-weight: bold;padding-left: 10px;}
